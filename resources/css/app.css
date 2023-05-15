@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list {
+    @apply flex flex-col gap-4 my-8;
+}
+
+.list__item {
+    @apply max-w-lg mx-auto cursor-pointer transition-colors duration-[250ms];
+}
